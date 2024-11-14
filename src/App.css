@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "FrutigerLTProRoman";
+    src: url(./font/Linotype\ \ FrutigerLTProRoman.otf);
+    font-weight: normal;
+    font-style: 400;
+}
+
+@font-face {
+    font-family: "FrutigerLTProBold";
+    src: url(./font/Linotype\ \ FrutigerLTProBold.otf);
+    font-weight: normal;
+    font-style: 400;
+}
+
+@font-face {
+    font-family: "FrutigerLTProLight";
+    src: url(./font/Linotype\ \ FrutigerLTProLight.otf);
+    font-weight: normal;
+    font-style: 400;
+}
+
+@font-face {
+    font-family: "VerveineRegular";
+    src: url(./font/VerveineRegular.TTF);
+    font-weight: normal;
+    font-style: 400;
+}
+

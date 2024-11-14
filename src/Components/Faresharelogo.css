@@ -1,0 +1,210 @@
+.LogoContainer {
+    padding: 0 15px;
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    box-sizing: border-box;
+}
+
+
+.LogoBox {
+    width: 1170px;
+    margin: 0 -15px;
+    display: table;
+}
+
+.Logo {
+    float: left;
+    padding: 0 15px;
+    width: 389px;
+}
+
+.Logo img {
+    margin: 30px 0;
+    height: auto;
+}
+
+.Icons-right {
+    padding: 0 15px;
+    position: relative;
+    height: 86px;
+    float: left;
+    width: 750px;
+
+}
+
+.Banner-buttons {
+    text-align: right;
+    display: block;
+    box-sizing: border-box;
+    height: 86px;
+}
+
+.Social-media {
+    display: inline;
+    font-size: 16px;
+    right: 2px;
+    position: relative;
+}
+
+.linked-in {
+    margin-left: 15px;
+}
+
+.linked-in img {
+    border-top: 10px solid transparent;
+    vertical-align: middle;
+}
+
+.twitter {
+    margin-left: 20px;
+}
+
+.twitter img {
+    border-top: 10px solid transparent;
+    vertical-align: middle;
+}
+
+.facebook {
+    margin-left: 20px;
+}
+
+.facebook img {
+    border-top: 10px solid transparent;
+    vertical-align: middle;
+}
+
+.instagram {
+    margin-left: 20px;
+}
+
+.instagram img {
+    border-top: 10px solid transparent;
+    vertical-align: middle;
+}
+
+.linked-in-no-bord {
+    margin-left: 0;
+}
+
+.linked-in-no-bord img {
+    vertical-align: middle;
+}
+
+.twitter-no-bord {
+    margin-left: 4.46px;
+}
+
+.twitter-no-bord img {
+    vertical-align: middle;
+}
+
+.facebook-no-bord {
+    margin-left: 4.46px;
+}
+
+.facebook-no-bord img {
+    vertical-align: middle;
+}
+
+.instagram-no-bord {
+    margin-left: 4.46px;
+}
+
+.instagram-no-bord img {
+    vertical-align: middle;
+}
+
+
+.Vol-dono {
+    display: inline;
+    box-sizing: border-box;
+}
+
+.circle-buttons {
+    display: inline-flex;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 11px;
+    list-style-type: disc;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+.circle-buttons a {
+    text-decoration: none;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.green-button {
+    background-color: #7bc241;
+    color: #fff;
+    background-image: linear-gradient(#a0d57d, #a0d57d);
+    padding-top: 10px;
+    border-bottom-right-radius: 95px;
+    border-bottom-left-radius: 95px;
+    width: 150px;
+    text-align: center;
+    height: 75px;
+    border-top: 0;
+    margin-left: 15px;
+    font-family: "VerveineRegular";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 34.5px;
+    line-height: 1;
+    letter-spacing: -.03em;
+    text-transform: uppercase;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size .5s, color .5s;
+    display: inline-block;
+}
+
+.green-button:hover {
+    background-size: 100% 100%;
+    color: #000;
+}
+
+.red-button {
+    background-color: #dc0922;
+    color: #fff;
+    border-bottom-right-radius: 95px;
+    border-bottom-left-radius: 95px;
+    font-size: 39.5px;
+    background-image: linear-gradient(#e9514c, #e9514c);
+    padding-top: 10px;
+    border-bottom-right-radius: 95px;
+    border-bottom-left-radius: 95px;
+    width: 150px;
+    text-align: center;
+    height: 75px;
+    border-top: 0;
+    margin-left: 15px;
+    font-family: "VerveineRegular";
+    line-height: 1;
+    letter-spacing: -.03em;
+    text-transform: uppercase;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size .5s, color .5s;
+    display: inline-block;
+}
+
+.red-button:hover {
+    background-size: 100% 100%;
+    color: #000;
+}
+
+@media (min-width: 1200px) {
+    .Icons-right {
+        width: 66.66666667%;
+    }
+}

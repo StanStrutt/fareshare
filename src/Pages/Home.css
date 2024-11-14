@@ -1,0 +1,558 @@
+.Home {
+    box-sizing: border-box;
+}
+
+.home-page {
+    width: 100%;
+}
+
+.tesco-collection {
+    background-image: url("https://fareshare.org.uk/wp-content/uploads/2024/10/tfc-home-24.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding: 0 15px;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.tesco-collection-text {
+    background-color: rgba(46,46,46,.8);
+    float: left;
+    margin: 15px 0;
+    padding: 15px;
+    color: white;
+    width: 340.448px;
+    height: 256.291px;
+    left: 32px;
+    position: relative;
+    font-family: "FrutigerLTProBold", sans-serif;
+
+}
+
+.collection-h3 {
+    font-size: 2.2em;
+    color: #ffd300;
+    margin-top: 0;
+    margin-bottom: 16px;
+    height: 77.417px;
+}
+
+.collection-vol {
+    font-size: 16px;
+    margin-bottom: 16px;
+    height: 44.792px;
+}
+
+.food-button a{
+    margin: 0;
+    background-color: #ffd300;
+    width: max-content;
+    padding: 9px;
+    display: block;
+    font-size: 1.7em;
+    text-decoration: none;
+    color: black;
+    height: 56.073px;
+}
+
+.food-button a:hover {
+    background-color: #ffe02e;
+    transition-duration: 0.5s;
+}
+
+.food-button a:focus {
+    outline: thin dotted;
+    outline-offset: -2px;
+    color: #3e6121;
+    text-decoration: underline;
+}
+
+.stay-connected {
+    width: 100%;
+    background-color: #7cc242;
+    z-index: 9;
+
+}
+
+
+
+.stay-connected-segment {
+    padding: 30px 0;
+}
+
+.con-container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.connected-p {
+    width: 33.33%;
+    padding: 45px 15px 0 15px;
+    position: relative;
+
+    font-family: "frutigerLTProRoman";
+}
+.connected-p p{
+    color: white;
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 16px;
+}
+.connected-input-cont {
+    width: 33.33%;
+
+    padding: 0 15px;
+}
+
+.connected-input h3 {
+    color: white;
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 2em;
+    height: 35.2px;
+    font-family: "frutigerLTProBold";
+}
+
+.home-form {
+    background-color: #dc0922;
+    border: 0;
+    color: #fff;
+    width: 153px;
+    height: 43px;
+    padding: 7px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-family: "FrutigerLTProBold";
+    font-size: 1.3em;
+    line-height: 1.4;
+}
+
+.home-form:hover {
+    background-color: #ed3945;
+    transition-duration: 0.5s;
+}
+
+.con-first {
+    margin-bottom: 15px;
+    height: 43px;
+}
+
+.con-email {
+    margin-bottom: 15px;
+    height: 43px;
+}
+
+
+input {
+    width: 336px;
+    height: 29px;
+    border: none;
+    font-size: 1.3em;
+    padding: 7px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.social-icons {
+    padding: 0 15px;
+    position: relative;
+    width: 33.33%;
+}
+
+.social-inner {
+    margin: 49px auto;
+    width: 190px;
+    height: 40px;
+}
+
+.what-who-section {
+    width: 100%;
+    background-color: #019392;
+    color: #fff;
+    height: 270px;
+}
+
+.what-who-container {
+    
+    width: 1170px;
+    padding: 0 15px;
+    height: auto;
+    margin: 0 auto;
+}   
+
+.what-who {
+    margin: 0 -15px;
+    padding-top: 30px;
+    text-align: center;
+    height: 240px;
+}
+
+.who-text {
+    width: 50%;
+    float: left;
+    position: relative;
+    padding: 0 15px;
+    height: 240px;
+}
+
+.who-h1 {
+    font-size: 44px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    height: 48px;
+    line-height: 1.1;
+    width: 555px;
+    font-family: "FrutigerLTProBold";
+}
+
+.who-p {
+    font-size: 22px;
+    margin-bottom: 22px;
+    margin-top: 0px;
+    height: 154px;
+    line-height: 1.4;
+    width: 555px;
+    font-family: "FrutigerLTProLight";
+}
+
+.what-text {
+    width: 50%;
+    float: right;
+    position: relative;
+    padding: 0 15px;
+    height: 240px;
+}
+
+
+.what-h1 {
+    font-size: 44px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    height: 48px;
+    line-height: 1.1;
+    width: 555px;
+    font-family: "FrutigerLTProBold";
+}
+
+.what-p {
+    font-size: 22px;
+    margin-bottom: 22px;
+    margin-top: 0px;
+    height: 154px;
+    line-height: 1.4;
+    width: 555px;
+    font-family: "FrutigerLTProLight";
+}
+
+.homepage-video {
+    background-color: #5ebfbc;
+    padding: 50px 0;
+}
+
+.hp-vid-container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.latest-news-cont {
+    padding: 0 15px;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.latest-news-title {
+    margin: 30px 0;
+    width: 100%;
+    text-align: center;
+    font-family: "FrutigerLTProBold";
+}
+
+.latest-news-title h1{
+    font-size: 44px;
+    color: #5ebfbc;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.latest-news-wrapper {
+    width: 100%;
+    margin-bottom: 14px;
+    font-family: "FrutigerLTProRoman";
+}
+
+.latest-news {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 520px;
+    box-sizing: border-box;
+}
+
+.news-1 {
+    width: 33.33%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    height: 393px;
+    position: relative;
+    float: left;
+}
+
+.news-1 a {
+    text-decoration: none;
+    color: black;
+    width: 360px;
+}
+
+.news-1 img {
+    border-bottom: 8px solid #5ebfbc;
+    width: 360px;
+    height: 240px;
+}
+
+.news-1 h2 {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-left: 3px solid #f6f6f6;
+    border-right: 3px solid #f6f6f6;
+    border-bottom: 3px solid #f6f6f6;
+    margin-top: 0;
+    height: 240px;
+    width: 360px;
+    font-size: 24px;
+}
+
+.news-2 {
+    width: 33.33%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    height: 490px;
+    position: relative;
+    float: left;
+}
+
+.news-2 a {
+    text-decoration: none;
+    color: black;
+    width: 360px;
+}
+
+.news-2 img {
+    border-bottom: 8px solid #5ebfbc;
+    width: 360px;
+    height: 240px;
+}
+
+.news-2 h2 {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-left: 3px solid #f6f6f6;
+    border-right: 3px solid #f6f6f6;
+    border-bottom: 3px solid #f6f6f6;
+    margin-top: 0;
+    height: 240px;
+    width: 360px;
+    font-size: 24px;
+}
+
+.news-3 {
+    width: 33.33%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    height: 490px;
+    position: relative;
+    float: right;
+}
+
+.news-3 a {
+    text-decoration: none;
+    color: black;
+    width: 360px;
+}
+
+.news-3 img {
+    border-bottom: 8px solid #5ebfbc;
+
+}
+
+.news-3 h2 {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-left: 3px solid #f6f6f6;
+    border-right: 3px solid #f6f6f6;
+    border-bottom: 3px solid #f6f6f6;
+    margin-top: 0;
+    height: 240px;
+    width: 360px;
+    font-size: 24px;
+}
+
+.where-to-find-us {
+    width: 100%;
+    height: 509.833px;
+    padding: 30px 0;
+    background-color: #7cc242;
+}
+
+.where-to-find-us-container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 449.833px;
+}
+
+.regional-centres {
+    margin: 0 -15px;
+    height: 449.833px;
+}
+
+.regional-title {
+    height: 78.396px;
+    padding: 0 15px;
+    font-family: "FrutigerLTProBold";
+}
+
+.regional-title h1 {
+    color: white;
+    text-align: center;
+    font-size: 44px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.nearest-fs {
+    padding: 0 15px;
+    position: relative;
+    float: left;
+    height: 225.396px;
+    width: 25%;
+}
+
+.postcode {
+    padding-bottom: 60px;
+    font-family: "FrutigerLTProBold";
+    line-height: 1.4;
+}
+
+.postcode h3{
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 16px;
+    width: 262px;
+    height: 48px;
+    margin-top: 0;
+}
+
+.post-search {
+    padding: 7px;
+    margin: 15px 0;
+    display: block;
+    width: 100%;
+    height: 43px;
+}
+
+.post-search::placeholder {
+    font-size: 1.3em;
+}
+
+.post-button {
+    background-color: #dc0922;
+    border: 0;
+    font-size: 1.3em;
+    width: 153px;
+    margin: 0;
+    padding: 7px;
+    color: #fff;
+    height: 43px;
+}
+
+.cities-container {
+    position: relative;
+    float: left;
+    padding: 0 15px;
+    width: 877px;
+    height: 371.438px;
+    line-height: 1.4;
+    font-family: "FrutigerLTProLight";
+}
+
+
+.city-wrapper {
+    padding-right: 30px;
+    width: 271.198px;
+    text-align: left;
+    float: left;
+}
+
+.city-border {
+    border-bottom: 1px solid rgba(255,255,255,.4);
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.city-border a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    display: inline;
+}
+
+.city-border a:hover {
+    color: rgba(0,0,0,.5);
+    transition-duration: 0.5s;
+    text-decoration: underline;
+}
+
+.city-border a:focus {
+    outline: thin dotted;
+    outline-offset: -2px;
+}
+
+.fs-logo-wrapper {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 331.885px;
+}
+
+.logo-top-wrapper {
+    margin: 0 -15px;
+    height: 158.4px;
+}
+
+.logo-bottom-wrapper {
+    margin: 0 -15px;
+    height: 173.498px;
+}
+
+.logo-top {
+    padding: 0 15px;
+    height: 158.396px;
+}
+
+.logo-bottom {
+    padding: 0 15px;
+}
+
+.fs-logo-wrapper p {
+    margin-bottom: 16px;
+    height: 22.396px;
+    margin-top: 0px;
+}
+
+.img-holder {
+    width: 25%;   
+    padding: 0 15px;
+    float: left;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}

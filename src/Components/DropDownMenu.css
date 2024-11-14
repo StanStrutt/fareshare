@@ -1,0 +1,169 @@
+.breaddrop {
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+
+.fsnavbar {
+    background-color: #7cc242;
+    box-sizing: border-box;
+    width: 100%;
+    z-index: 10;
+    height: 50px;
+}
+
+.fsnavbar-links {
+    list-style: none;
+    width: 1170px;
+    margin: 0 auto;
+    position: static;
+    display: block;
+    padding: 0;
+}
+
+.fsdropdown {
+    position: relative;
+    display: block;
+    float: left;
+    z-index: 10;
+}
+
+.fsdropdown-toggle {
+    color: white;
+    background-color: #7cc242;
+    border: none;
+    border-color: #7cc242;
+    font-size: 16px;
+    padding: 13px 15px;
+    font-family: "FrutigerLTProRoman", sans-serif;
+}
+
+.fsdropdown-toggle span {
+    display: inline-block;
+    vertical-align: middle;
+    width: 0px;
+    height: 0px;
+    margin-left: 2px;
+    border-top: 4px dashed;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.fsdropdown-toggle:hover {
+    background-color: #53822c;
+    transition-duration: 0.5s;
+}
+
+.fsdropdown-toggle:focus {
+  background-color: #53822c;
+}
+
+.fsdropdown-menu {
+    position:absolute;
+    background-color: #D2EAC2;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    width: auto;
+}
+
+.fsdropdown-menu li {
+    height: 39.594px;
+}
+
+.wwd {
+    width: 186.812px;
+}
+
+.gif {
+    width: 251.406px;
+}
+
+.gef {
+    width: 170.484px;
+}
+
+.gi {
+    width: 186.828px;
+}
+
+.nm {
+    width: 214.828px;
+}
+
+.au {
+    width: 196.172px;
+}
+
+.gs {
+    width: 160px;
+}
+
+.cfp {
+    width: 160px;
+}
+
+
+.fsdropdown-menu a {
+    text-decoration: none;
+    position: relative;
+    color: black;
+    display:block;
+    width: 100%;
+    padding: 10px 16px;
+    font-size: 14px;
+}
+
+.fsdropdown-menu a:focus {
+  background-color: #53822c;
+  color: white;
+}
+
+.fsdropdown-menu a:hover {
+    color: white;
+    background-color: #53822c;
+    transition-duration: 0.5s;
+}
+/* BREAD CRUMB NAVIGATION NEXT */
+
+
+
+.bg-breadcrumb {
+    background-color: #f5f5f5;
+    font-size: 12px;
+    line-height: 40px;
+    height: 37px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.breadcrumb-custom {
+    font-family: "FrutigerLTProRoman", sans-serif;;
+    width: 100%;
+    display: flex;
+}
+
+.breadcrumb-custom a {
+    color: #adadad; 
+}
+
+.widthbox {
+    margin: auto;
+    width: 1150px;
+}
+
+
+@media screen and(max-width: 768px) {
+    .bearddrop {
+        align-items: flex-start;
+    }
+    .bg-breadcrumb {
+        margin-top: 5px;
+        padding-left: 10px;
+    }
+    .breadcrumb-custom {
+        font-size: 12px;
+    }
+}
