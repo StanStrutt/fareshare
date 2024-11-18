@@ -59,17 +59,19 @@ export default function FSFooter() {
                         <div className="footer-hr">
                             <hr/>
                         </div>
-                        <div className="footer-icons">
-                            <img className="footer-image-1" src="https://fareshare.org.uk/wp-content/themes/project-fareshare/img/logo-white.png" alt=""/>
-                            <img className="footer-image-2" src="https://fareshare.org.uk/wp-content/themes/project-fareshare/img/fr-logo.jpg" alt=""/>
-                        </div>
-                        <div className="phone-number">
-                            <p>FareShare is a registered charity in England & Wales  
-                            (1100051) and Scotland (SC052672)
-                            </p>
-                        </div>
-                        <div className="copyright">
-                            <p>© 2024 FareShare</p>
+                        <div className="icons-text">
+                            <div className="footer-icons">
+                                <img className="footer-image-1" src="https://fareshare.org.uk/wp-content/themes/project-fareshare/img/logo-white.png" alt=""/>
+                                <img className="footer-image-2" src="https://fareshare.org.uk/wp-content/themes/project-fareshare/img/fr-logo.jpg" alt=""/>
+                            </div>
+                            <div className="phone-number">
+                                <p>FareShare is a registered charity in England & Wales  
+                                (1100051) and Scotland (SC052672)
+                                </p>
+                            </div>
+                            <div className="copyright">
+                                <p>© 2024 FareShare</p>
+                            </div>
                         </div>
                     </div>
                 </div>
